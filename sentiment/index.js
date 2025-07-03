@@ -9,7 +9,7 @@ const natural = require('natural');
 
 // Task 2: initialize the express server
 const app = express();
-const port = process.env.PORT || 3060;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(expressPino);
